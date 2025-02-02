@@ -1,0 +1,11 @@
+#+author: who4mos
+#+title: CS50's problem sets
+
+* CS50's problem sets
+
+This repository contain my solutions to [[https://cs50.harvard.edu/x/2025/][CS50]]'s problem sets.
+
+
+* Requirements
+
+To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
