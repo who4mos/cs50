@@ -1,0 +1,53 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+Time increases exponentially with input
+If already sorted, it is fast
+
+sorted5000.txt: 1.067s
+sorted10000.txt: 1.243s
+sorted50000.txt: 3.724s
+
+random5000.txt: 0.174s
+random10000.txt: 0.794s
+random50000.txt: 16.595s
+
+reversed5000.txt: 1.223s
+reversed10000.txt: 0.866s
+reversed50000.txt: 18.671s
+
+sort2 uses: Merge Sort
+
+How do you know?:
+Time doesn't increase much with array size
+Doesn't matter if array is already sorted or reversed
+
+sorted5000.txt: 1.062s
+sorted10000.txt: 0.211s
+sorted50000.txt: 1.761s
+
+random5000.txt: 0.058s
+random10000.txt: 0.223s
+random50000.txt: 1.584s
+
+reversed5000.txt: 0.061s
+reversed10000.txt: 0.221s
+reversed50000.txt: 1.759s
+
+sort3 uses: Selection Sort
+
+How do you know?:
+Time increases exponentially with input
+Doesn't matter if array is already sorted
+
+sorted5000.txt: 1.150s
+sorted10000.txt: 0.623s
+sorted50000.txt: 8.565s
+
+random5000.txt: 0.094s
+random10000.txt: 0.492s
+random50000.txt: 8.717s
+
+reversed5000.txt: 0.145s
+reversed10000.txt: 0.521s
+reversed50000.txt: 9.433s
