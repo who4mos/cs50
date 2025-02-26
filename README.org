@@ -1,8 +1,8 @@
 #+author: who4mos
 
-* CS50's problem sets
+* CS50's problems solutions
 
-This repository contain my solutions to [[https://cs50.harvard.edu/x/2025/][CS50]]'s problem sets.
+This repository contain my solutions to [[https://cs50.harvard.edu/x/2025/][CS50]]'s problem sets and after week practises.
 
 * Requirements
 
@@ -59,11 +59,15 @@ To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
   
 ** Week 4 - Memory
 
+*** Problem Set
+
 - [[file:Week4-Memory/volume.c][Volume]]
 - [[file:Week4-Memory/filter-less/helpers.c][Filter Less]]
 - [[file:Week4-Memory/filter-more/helpers.c][Filter More]]
 - [[file:Week4-Memory/recover.c][Recover]]
 
-* Notes
+  
+*** After Week
 
-In week 4 the images folder for the filters psets are missing on purpose, the only important file is ~helpers.c~ in both filter-less and filter-more.
+- [[file:after-week-4/bottomup/bottomup.c][Bottom Up]]
+- [[file:after-week-4/license.c][License]]
