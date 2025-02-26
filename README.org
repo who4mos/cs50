@@ -1,14 +1,68 @@
 #+author: who4mos
-#+title: CS50's problem sets
 
 * CS50's problem sets
 
 This repository contain my solutions to [[https://cs50.harvard.edu/x/2025/][CS50]]'s problem sets.
 
-
 * Requirements
 
 To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
+
+* Solutions
+
+** Week 1 - C
+
+*** Problem Set
+
+- [[file:Week1-C/hello.c][Hello, It's Me]]
+- [[file:Week1-C/mario-less.c][Mario Less]]
+- [[file:Week1-C/mario-more.c][Mario More]]
+- [[file:Week1-C/cash.c][Cash]]
+- [[file:Week1-C/credit.c][Credit]]
+
+*** After Week
+
+- [[file:after-week-1/debug.c][Debug]]
+- [[file:after-week-1/half.c][Half]]
+- [[file:after-week-1/prime.c][Prime]]
+  
+** Week 2 - Arrays
+
+*** Problem Set
+
+- [[file:Week2-Arrays/scrabble.c][Scrabble]]
+- [[file:Week2-Arrays/readability.c][Readability]]
+- [[file:Week2-Arrays/caesar.c][Caesar]]
+- [[file:Week2-Arrays/substitution.c][Substitution]]
+
+*** After Week
+
+- [[file:after-week-2/hours.c][Hours]]
+- [[file:after-week-2/no-vowels.c][N0 V0w3ls]]
+- [[file:after-week-2/password.c][Password]]
+    
+** Week 3 - Algorithms
+
+*** Problem Set
+
+- [[file:Week3-Algorithms/answers.txt][Sort]]
+- [[file:Week3-Algorithms/plurality.c][Plurality]]
+- [[file:Week3-Algorithms/runoff.c][Runoff]]
+- [[file:Week3-Algorithms/tideman.c][Tideman]]
+
+*** After Week
+
+- [[file:after-week-3/atoi.c][Recursive atoi]]
+- [[file:after-week-3/temps.c][Average Temperatures]]
+- [[file:after-week-3/max.c][Max]]
+- [[file:after-week-3/snackbar.c][Snackbar]]
+  
+** Week 4 - Memory
+
+- [[file:Week4-Memory/volume.c][Volume]]
+- [[file:Week4-Memory/filter-less/helpers.c][Filter Less]]
+- [[file:Week4-Memory/filter-more/helpers.c][Filter More]]
+- [[file:Week4-Memory/recover.c][Recover]]
 
 * Notes
 
