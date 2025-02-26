@@ -9,3 +9,7 @@ This repository contain my solutions to [[https://cs50.harvard.edu/x/2025/][CS50
 * Requirements
 
 To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
+
+* Notes
+
+In week 4 the images folder for the filters psets are missing on purpose, the only important file is ~helpers.c~ in both filter-less and filter-more.
