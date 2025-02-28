@@ -71,3 +71,10 @@ To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
 
 - [[file:after-week-4/bottomup/bottomup.c][Bottom Up]]
 - [[file:after-week-4/license.c][License]]
+
+** Week 5 - Data Structures
+
+*** Problem Set
+
+- [[file:week-5/inheritance.c][Inheritance]]
+- [[file:week-5/speller/dictionary.c][Speller]]
