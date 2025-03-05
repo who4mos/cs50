@@ -78,3 +78,7 @@ To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
 
 - [[file:week-5/inheritance.c][Inheritance]]
 - [[file:week-5/speller/dictionary.c][Speller]]
+
+*** After Week
+
+- [[file:after-week-5/trie/trie.c][Trie]]
