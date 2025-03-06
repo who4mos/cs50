@@ -66,10 +66,6 @@ To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
 - [[file:Week4-Memory/filter-more/helpers.c][Filter More]]
 - [[file:Week4-Memory/recover.c][Recover]]
 
-  
-*** After Week
-
-- [[file:after-week-4/bottomup/bottomup.c][Bottom Up]]
 - [[file:after-week-4/license.c][License]]
 
 ** Week 5 - Data Structures
@@ -82,3 +78,15 @@ To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
 *** After Week
 
 - [[file:after-week-5/trie/trie.c][Trie]]
+
+** Week 6 - Python
+
+*** Problem Set
+
+- [[file:week-6/hello.py][Hello]]
+- [[file:week-6/mario-less.py][Mario Less]]
+- [[file:week-6/mario-more.py][Mario More]]
+- [[file:week-6/cash.py][Cash]]
+- [[file:week-6/credit.py][Credit]]
+- [[file:week-6/readability.py][Readability]]
+- [[file:week-6/dna/dna.py][DNA]]
