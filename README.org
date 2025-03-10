@@ -90,3 +90,11 @@ To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
 - [[file:week-6/credit.py][Credit]]
 - [[file:week-6/readability.py][Readability]]
 - [[file:week-6/dna/dna.py][DNA]]
+
+*** After Week
+
+- [[file:after-week-6/bank.py][Bank]]
+- [[file:after-week-6/figlet.py][Frank, Ian and Glen's Letters]]
+- [[file:after-week-6/jar.py][Jar]]
+- [[file:after-week-6/seven-day-average.py][Seven Day Average]]
+- [[file:after-week-6/taqueria.py][Taqueria]]
