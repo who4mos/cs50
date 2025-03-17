@@ -1,0 +1,14 @@
+SELECT
+AVG(energy) AS avg_energy,
+AVG(valence) AS avg_valence,
+AVG(danceability) AS avg_danceability,
+(AVG(energy) + AVG(valence) + AVG(danceability) / 3) AS aura
+FROM songs;
+
++------------+-------------+------------------+----------+
+| avg_energy | avg_valence | avg_danceability |   aura   |
++------------+-------------+------------------+----------+
+| 0.65906    | 0.484443    | 0.71646          | 1.382323 |
++------------+-------------+------------------+----------+
+
+That is a limited way of calculating a mood for a person's music style. I think take in consideration play counts (time listened) and music genres would help.

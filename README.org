@@ -98,3 +98,12 @@ To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
 - [[file:after-week-6/jar.py][Jar]]
 - [[file:after-week-6/seven-day-average.py][Seven Day Average]]
 - [[file:after-week-6/taqueria.py][Taqueria]]
+
+** Week 7 - SQL
+
+
+*** Problem Set
+
+- [[file:week-7/songs/][Songs]]
+- [[file:week-7/movies/][Movies]]
+- [[file:week-7/fiftyville/][Fiftyville]]
