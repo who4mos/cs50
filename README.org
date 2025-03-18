@@ -107,3 +107,8 @@ To run the codes you'll need [[https://github.com/cs50/libcs50][libcs50]].
 - [[file:week-7/songs/][Songs]]
 - [[file:week-7/movies/][Movies]]
 - [[file:week-7/fiftyville/][Fiftyville]]
+
+*** After Week
+
+- [[file:after-week-7/favorites/favorites.sql][Favorites]]
+- [[file:after-week-7/prophecy/prophecy.py][Hall of Prophecy]]
