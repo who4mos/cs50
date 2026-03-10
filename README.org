@@ -30,3 +30,10 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 - [[file:week-2/readability/readability.c][Readability]]
 - [[file:week-2/caesar/caesar.c][Caesar]]
 - [[file:week-2/substitution/substitution.c][Substitution]]
+  
+* Problem Set 3
+
+- [[file:week-3/sort/answers.txt][Sort]]
+- [[file:week-3/plurality/plurality.c][Plurality]]
+- [[file:week-3/runoff/runoff.c][Runoff]]
+- [[file:week-3/tideman/tideman.c][Tideman]]
