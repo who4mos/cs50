@@ -30,6 +30,12 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 - [[file:week-2/readability/readability.c][Readability]]
 - [[file:week-2/caesar/caesar.c][Caesar]]
 - [[file:week-2/substitution/substitution.c][Substitution]]
+
+* After Week 2
+
+- [[file:after-week-2/hours/hours.c][Hours]]
+- [[file:after-week-2/no-vowels/no-vowels.c][N0 V0w3ls]]
+- [[file:after-week-2/password/password.c][Password]]
   
 * Problem Set 3
 
