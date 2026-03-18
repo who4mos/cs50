@@ -5,11 +5,15 @@ This repository contains my solutions to [[https://cs50.harvard.edu/x/][CS50]]'s
 To compile the C source codes locally, you'll need [[https://github.com/cs50/libcs50][libcs50]] installed and compile with the flag ~-lcs50~.
 #+end_quote
 
-* Problem Set 0
+* Week 0
+
+** Problem Set
 
 - [[https://scratch.mit.edu/projects/1261832990/][Cold Run]]
 
-* Problem Set 1
+* Week 1
+
+** Problem Set
 
 - [[file:week-1/world/hello.c][World]] 
 - [[file:week-1/me/hello.c][Me]]
@@ -18,35 +22,40 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 - [[file:week-1/cash/cash.c][Cash]]
 - [[file:week-1/credit/credit.c][Credit]]
 
-* After Week 1
+** After Week
 
 - [[file:after-week-1/debug/debug.c][Debug]]
 - [[file:after-week-1/half/half.c][Half]]
 - [[file:after-week-1/prime/prime.c][Prime]]
 
-* Problem Set 2
+* Week 2
+
+** Problem Set
 
 - [[file:week-2/scrabble/scrabble.c][Scrabble]]
 - [[file:week-2/readability/readability.c][Readability]]
 - [[file:week-2/caesar/caesar.c][Caesar]]
 - [[file:week-2/substitution/substitution.c][Substitution]]
 
-* After Week 2
+** After Week
 
 - [[file:after-week-2/hours/hours.c][Hours]]
 - [[file:after-week-2/no-vowels/no-vowels.c][N0 V0w3ls]]
 - [[file:after-week-2/password/password.c][Password]]
   
-* Problem Set 3
+* Week 3
+
+** Problem Set
 
 - [[file:week-3/sort/answers.txt][Sort]]
 - [[file:week-3/plurality/plurality.c][Plurality]]
 - [[file:week-3/runoff/runoff.c][Runoff]]
 - [[file:week-3/tideman/tideman.c][Tideman]]
 
-* After Week 3
+** After Week
 
 - [[file:after-week-3/atoi/atoi.c][Recursive atoi]]
 - [[file:after-week-3/temps/temps.c][Average Temperatures]]
 - [[file:after-week-3/max/max.c][Max]]
 - [[file:after-week-3/snackbar/snackbar.c][Snackbar]]
+
