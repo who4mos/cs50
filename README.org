@@ -17,8 +17,8 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 
 - [[file:week-1/world/hello.c][World]] 
 - [[file:week-1/me/hello.c][Me]]
-- [[file:week-1/mario-less/mario.c][Mario-less]]
-- [[file:week-1/mario-more/mario.c][Mario-more]]
+- [[file:week-1/mario-less/mario.c][Mario (less)]]
+- [[file:week-1/mario-more/mario.c][Mario (more)]]
 - [[file:week-1/cash/cash.c][Cash]]
 - [[file:week-1/credit/credit.c][Credit]]
 
