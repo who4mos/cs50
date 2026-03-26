@@ -68,6 +68,11 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 - [[file:week-4/filter-more/helpers.c][Filter (more)]]
 - [[file:week-4/recover/recover.c][Recover]]
 
+** After Week
+
+- [[file:after-week-4/bottomup/bottomup.c][Bottom Up]]
+- [[file:after-week-4/license/license.c][License]]
+
 * Week 5
 
 ** Problem Set
