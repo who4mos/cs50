@@ -83,3 +83,15 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 ** After Week
 
 - [[file:after-week-5/trie/trie.c][Trie]]
+
+* Week 6
+
+** Problem Set
+
+- [[file:week-6/sentimental-hello/hello.py][Sentimental Hello]]
+- [[file:week-6/sentimental-mario-less/mario.py][Sentimental Mario (less)]]
+- [[file:week-6/sentimental-mario-more/mario.py][Sentimental Mario (more)]]
+- [[file:week-6/sentimental-cash/cash.py][Sentimental Cash]]
+- [[file:week-6/sentimental-credit/credit.py][Sentimental Credit]]
+- [[file:week-6/sentimental-readability/readability.py][Sentimental Readability]]
+- [[file:week-6/dna/dna.py][DNA]]
