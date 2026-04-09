@@ -103,3 +103,11 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 - [[file:after-week-6/jar/jar.py][Jar]]
 - [[file:after-week-6/seven-day-average/seven-day-average.py][Seven Day Average]]
 - [[file:after-week-6/taqueria/taqueria.py][Taqueria]]
+
+* Week 7
+
+** Problem Set
+
+- [[file:week-7/songs/][Songs]]
+- [[file:week-7/movies/][Movies]]
+- [[file:week-7/fiftyville/][Fiftyville]]

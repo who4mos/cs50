@@ -1,0 +1,3 @@
+The audio aura would be orange i think, high energy.
+
+That might not be the best way to calculate an "aura" because it doesn't take in account how much time each song was played.
