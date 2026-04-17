@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+
+          let questions = document.querySelectorAll(".question");
+          for (let i = 0; i < questions.length; i++) {
+              console.log(questions[i]);
+              questions[i].addEventListener("click", function() {
+                  if (questions[i].classList.contains("correct")) {
+                      questions[i].style.backgroundColor = "green";
+                  } else {
+                      questions[i].style.backgroundColor = "red";
+                  }
+              });
+          }
+
+          let check_button = document.querySelector("#check");
+          check_button.addEventListener("click", function() {
+              let input = document.querySelector("#answer");
+              let result_p = input.parentElement.querySelector(".result");
+        
+              if (input.value == 42) {
+                  input.style.backgroundColor = "green";
+                  result_p.innerHTML = "Correct!";
+              } else {
+                  input.style.backgroundColor = "red";
+                  result_p.innerHTML = "Incorrect";
+              }
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Part 1: Multiple Choice </h2>
+        <hr/>
+        <h3>what is the most beautiful country?</h3>
+        <button class="question">China</button>
+        <button class="question">USA</button>
+        <button class="question correct">Brasil</button>
+        <button class="question">Mexico</button>
+      </div>
+
+      <div class="section">
+        <h2>Part 2: Free Response</h2>
+        <hr/>
+        <h3>What is the meaning of life?</h3>
+        <input id="answer" name="answer" type="text" value=""/>
+        <button id="check">Check</button>
+        <p class="result"></p>
+      </div>
+    </div>
+  </body>
+</html>

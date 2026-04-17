@@ -1,0 +1,61 @@
+:root {
+    --accent: hsl(97 59% 51%);
+    --accent-dark: hsl(97 59% 35%)
+}
+
+.navbar-brand {
+    font-family: monospace;
+}
+
+.navbar-brand:hover {
+    color: var(--accent);
+}
+
+#myName {
+    color: var(--accent);
+}
+.btn-accent-hollow {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.btn-accent-hollow:hover {
+    background-color: var(--accent);
+}
+
+.btn-accent {
+    color: #fefefe;
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+
+.btn-accent:hover {
+    color: #fefefe;
+    background-color: var(--accent-dark);
+    border-color: var(--accent-dark);
+}
+
+
+.btn-filter {
+    color: #fefefe;
+    border-color: var(--bs-border-color);
+
+}
+
+.btn-filter:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.active-filter {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.badge.text-bg-accent {
+    background-color: var(--accent);
+}
+
+div > i {
+    color: var(--accent);
+}

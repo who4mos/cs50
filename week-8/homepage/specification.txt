@@ -1,0 +1,8 @@
+HTML elements used:
+header, main, section, footer, div, span, h1, h2, h3, p, button, a, ...
+
+CSS properties:
+color, border-color, background-color, transition, font-family
+
+I've used javascript to populate the projects page and add filters by tag to them.
+And I've used bootstrap a lot in the design of the site.

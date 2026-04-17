@@ -116,3 +116,10 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 
 - [[file:after-week-7/favorites/favorites.sql][Favorites]]
 - [[file:after-week-7/prophecy/][Hall of Prophecy]]
+
+* Week 8
+
+** Problem Set
+
+- [[file:week-8/trivia/index.html][Trivia]]
+- [[file:week-8/homepage/index.html][Homepage]]
