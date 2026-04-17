@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RadioShack 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .carousel-caption {
+          background-color: rgba(0, 0, 0, 0.7);
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          text-align: left;
+      }
+
+      .product-price::before {
+          content: "$";
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md bg-light">
+        <div class="container">
+
+          <a class="navbar-brand" href="">RadioShack</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+    </header>
+
+    <main class="bg-light">
+
+      <!-- logo -->
+      <section>
+        <div class="container mb-4">
+          <div class="row py-4 justify-content-center">
+            <div class="col-lg-9">
+              <img class="img-fluid" alt="" src="./radioshack-logo.png"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- carousel -->
+      <section>
+        <div class="container">
+          <div class="row py-4 justify-content-center">
+            <div class="col-lg-8">
+              <h2>Discounts!</h2>
+              <p class="lead">Nunc, consequat interdum varius sit amet, mattis vulputate enim nulla aliquet porttitor lacus, luctus accumsan tortor posuere ac ut consequat!</p>
+              <div id="carousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./router.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption ps-4 d-none d-md-block">
+                      <h5>Router</h5>
+                      <p>Proin sed libero enim, sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./watch.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption ps-4 d-none d-md-block">
+                      <h5>Watch</h5>
+                      <p>Nisl, condimentum id venenatis a, condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./speeker.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption ps-4 d-none d-md-block">
+                      <h5>Music Machine</h5>
+                      <p>At quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit, scelerisque in dictum.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- products -->
+      <section>
+        <div class="container">
+          <div class="row g-4 py-4">
+            <h2>Some Products!</h2>
+            
+            <div class="col-lg-4">
+              <div class="product d-flex flex-column h-100">
+                <img class="img-fluid mb-2" alt="" src="./drone.png"/>
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h3>Drone</h3>
+                  <p class="product-price">25.00</p>
+                </div>
+                <p class="product-description">Velit sed ullamcorper morbi tincidunt ornare massa, eget egestas purus! Netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna, molestie at elementum eu, facilisis sed.</p>
+                <button class="btn btn-outline-dark mt-auto align-self-start">See more</button>
+              </div>
+            </div>
+            
+            <div class="col-lg-4">
+              <div class="product d-flex flex-column h-100">
+                <img class="img-fluid mb-2" alt="" src="./termostat.png"/>
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h3>Termostat</h3>
+                  <p class="product-price">25.00</p>
+                </div>
+                <p class="product-description">Velit sed ullamcorper morbi tincidunt ornare massa, eget egestas purus! Quis blandit turpis cursus in hac habitasse platea dictumst quisque.</p>
+                <button class="btn btn-outline-dark mt-auto align-self-start">See more</button>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="product d-flex flex-column h-100">
+                <img class="img-fluid mb-2" alt="" src="./drawing-tablet.png"/>
+                <div class="d-flex justify-content-between align-items-baseline">
+                  <h3>Drawing Tablet</h3>
+                  <p class="product-price">25.00</p>
+                </div>
+                <p class="product-description">Velit sed ullamcorper morbi tincidunt ornare massa, eget egestas purus! Purus, in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus.</p>
+                <button class="btn btn-outline-dark mt-auto align-self-start">See more</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer class="py-4 border-top">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2026 RadioShack. All rights reserved.</p>
+      </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+  </body>
+</html>
