@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Top Up
+{% endblock %}
+
+{% block main %}
+    <p class="lead">Current Cash: {{ cash | usd }}</p>
+    <form action="/topup" method="post">
+      <div class="mb-3">
+        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="amount" placeholder="Amount ($)" type="text">
+      </div>
+      <button class="btn btn-primary" type="submit">Top Up</button>
+    </form>
+{% endblock %}

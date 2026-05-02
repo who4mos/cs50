@@ -127,3 +127,10 @@ To compile the C source codes locally, you'll need [[https://github.com/cs50/lib
 ** After Week
 
 - [[file:after-week-8/redo/radiotoday/][Radio Shack Redo]]
+
+* Week 9
+
+** Problem Set
+
+- [[file:week-9/birthdays/app.py][Birthdays]]
+- [[file:week-9/finance/app.py][Finance]]
